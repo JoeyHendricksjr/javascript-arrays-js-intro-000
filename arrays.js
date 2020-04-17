@@ -51,7 +51,7 @@ function accessElementInArray(arr, ind) {
 }
 function addElementToBeginningOfArray(arr, ele) {
   var newArray = [arr, ...ele];
-  return arr;
+  return newArr;
   //return arr.unshift(ele);
 }
 function destructivelyAddElementToBeginningOfArray(arr, ele) {

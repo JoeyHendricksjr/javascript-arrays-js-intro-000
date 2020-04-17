@@ -50,7 +50,7 @@ function accessElementInArray(arr, ind) {
   return arr[ind];
 }
 function addElementToBeginningOfArray(arr, ele) {
-  var newArray = [arr, ...ele];
+  var newArray = [...arr, ele];
   return arr;
   //return arr.unshift(ele);
 }
